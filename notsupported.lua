@@ -1,7 +1,6 @@
-
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/exploiting/main/EngoUILIB_V2.lua"))()
-local main = library:CreateMain("Prison life", "Executor: "..identifyexecutor().."!")
-local Tab1 = main:CreateTab("Not supported")
-
-main:CreateNotification("Alert!", "This game is not supported" , function()
-end) 
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Game not supported"; -- the title (ofc)
+Text = "Game not supported"; -- what the text says (ofc)
+Duration = 5; -- how long the notification should in secounds
+})
