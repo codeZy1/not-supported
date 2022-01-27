@@ -1,1 +1,1 @@
-print("game not supported")
+print("game not supported idiot")
