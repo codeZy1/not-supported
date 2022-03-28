@@ -1,1 +1,1 @@
-print("ur mom game not supported")
+print("amogus")
